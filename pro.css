@@ -1,0 +1,265 @@
+    * {
+        font-family: 'Ubuntu', sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .container {
+        background-image: url(../train1/photo_2024-07-08_21-31-05\ \(3\).jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding: 10px;
+        z-index: 999;
+        position: relative;
+    }
+    
+    .logo {
+        font-size: 20px;
+        padding: 0;
+        z-index: 999;
+        padding: 20px;
+    }
+    
+    ul {
+        width: 30%;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    
+    ul a:hover {
+        color: green;
+    }
+    
+    .logo a:hover {
+        color: green;
+    }
+    
+    header ul li a {
+        color: white;
+        text-decoration: none;
+        padding: 0;
+        text-align: right;
+        /* z-index: 9999; */
+    }
+    
+    .logo a {
+        color: white;
+        text-decoration: none;
+        padding: 0;
+        text-align: left;
+        z-index: 999;
+    }
+    
+    .info {
+        position: absolute;
+        width: 30%;
+        top: 50%;
+        left: 25%;
+        transform: translate(-50%, -50%);
+        z-index: 9999;
+    }
+    
+    .info .title {
+        color: white;
+        margin-bottom: 10px;
+        font-size: 45px;
+    }
+    
+    .info .des {
+        color: white;
+    }
+    
+    button {
+        padding: 10px;
+        margin: 20px;
+        line-height: 8px;
+    }
+    
+    .layer {
+        background-color: rgba(0, 0, 0, 0.626);
+        position: absolute;
+        z-index: 1;
+        inset: 0;
+    }
+    
+    .info button {
+        margin-top: 10px;
+        background-color: transparent;
+        border: 0;
+        color: aliceblue;
+    }
+    
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        color: #333;
+    }
+    
+    .intro {
+        padding: 50px;
+        text-align: center;
+    }
+    
+    .intro p {
+        max-width: 800px;
+        margin: 0 auto;
+        line-height: 1.6;
+        color: #666;
+    }
+    
+    .intro {
+        padding: 50px;
+        text-align: center;
+    }
+    
+    .intro p {
+        max-width: 800px;
+        margin: 0 auto;
+        line-height: 1.6;
+        color: #666;
+    }
+    
+    .gallery {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        width: 88%;
+        margin: auto;
+    }
+    
+    .gallery img {
+        width: 650px;
+        height: 450px;
+        padding: 10px;
+        /* margin-right: 10px; */
+        /* margin-left: 100x; */
+        /* flex-wrap: wrap; */
+    }
+    
+    .imges {
+        display: flex;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .member {
+        padding: 10px;
+    }
+    
+    .team {
+        text-align: center;
+        padding: 50px;
+    }
+    
+    .team p {
+        margin-bottom: 40px;
+    }
+    
+    .team p {
+        color: #666;
+    }
+    
+    .team .member img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .team .member p {
+        margin: 10px 0 0;
+        color: #666;
+    }
+    
+    .team .member span {
+        display: block;
+        margin-top: 5px;
+        font-weight: bold;
+        color: #333;
+    }
+    
+    .login {
+        background-image: url(photo_2024-07-11_17-07-42.jpg);
+        height: 100%;
+        width: 100%;
+        padding-top: 500px;
+    }
+    
+    h4.title {
+        font-size: 30px;
+        margin: auto;
+        padding: 90px;
+        color: rgba(0, 0, 0, 0.542);
+    }
+    
+    .text,
+    .email {
+        padding: 15px;
+        margin: 5px;
+        width: 480px;
+        border: none;
+    }
+    
+    .subject {
+        padding: 15px;
+        width: 60%;
+        margin: 50px;
+        border: none;
+    }
+    
+    .message {
+        padding: 60px;
+        width: 60%;
+        border: none;
+    }
+    
+    .submit {
+        background-color: rgba(0, 128, 0, 0.471);
+        padding: 10px 15px;
+        border: none;
+    }
+    
+    form {
+        text-align: center;
+    }
+    
+    .footer {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 50px;
+        justify-content: space-between;
+    }
+    
+    .footer h3,
+    p {
+        color: rgba(0, 0, 0, 0.592);
+    }
+    
+    .footerContainer {
+        line-height: 30px;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .social-icons a {
+        padding: 10px;
+    }
+    
+    .contact h2 {
+        text-align: center;
+    }
+    
+    h2 {
+        margin-bottom: 20px;
+    }
